@@ -1,1 +1,10 @@
 # CookIT
+![398000020-524f5520-4c37-4878-82b1-8e47d52d2197](https://github.com/user-attachments/assets/66f989ab-1a9e-424f-bf55-424063bdfda5)
+![398000099-a8d55ce3-3c4d-4deb-8750-fb391fbb788f](https://github.com/user-attachments/assets/7cf2012b-73cc-471a-b131-92b0c6582ee7)
+![398000104-494bfab2-dba0-4ac1-91d4-15035a6cf981](https://github.com/user-attachments/assets/f4f57645-3978-4305-8423-778aa108b29a)
+![398000107-9b9c2610-a0dd-44b8-b36b-c44b6604e2da](https://github.com/user-attachments/assets/95a08d1f-e43f-455e-a741-0c94929f8035)
+![398000113-09ba847d-bd3d-46a2-b8e9-00424cf60c94](https://github.com/user-attachments/assets/329ea5fa-9b74-4dc9-b20c-459c2b0f001f)
+![398000116-0b473fac-e888-44f7-94bc-f944b3bfa030](https://github.com/user-attachments/assets/9955ef4d-f348-4403-a0d3-11af4d3718e6)
+![398000119-015a123c-6693-4026-b861-d9e79ec3dc12](https://github.com/user-attachments/assets/a144a2db-dbca-4be0-9299-b100647edbe6)
+![398000205-bf27e4bd-9643-4c4a-9d7e-2e5b1bf11c3d](https://github.com/user-attachments/assets/b5129bdb-00f6-438c-b788-b25fd2ec4c0f)
+![398000272-fbbdf214-7794-44d2-80f6-60906abe7865](https://github.com/user-attachments/assets/46933664-4ea6-4306-b427-1150d3b4ee48)
