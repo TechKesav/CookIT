@@ -1,0 +1,4 @@
+*.pdf
+chroma_db_nccn1/
+__pycache__/
+.venv/
