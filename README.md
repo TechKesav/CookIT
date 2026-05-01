@@ -3,7 +3,6 @@
 COOK.IT is a simple Retrieval-Augmented Generation (RAG) project.
 You enter ingredients, the app retrieves relevant recipe content from PDF books, and a local LLM (Ollama + llama3.2) generates the final answer.
 
-This project does **not** use fine-tuning.
 It uses retrieval + prompt + generation.
 
 ## Project Idea
@@ -61,6 +60,40 @@ The goal is to build an RAG system with:
 3. Retrieved chunks are inserted into the prompt as context.
 4. Prompt is sent to Ollama (`llama3.2`).
 5. Model returns answer shown in UI.
+
+## Complete RAG Data Flow
+
+```
+┌─────────────────────────────────────┐
+│  INDEXING (One-time Setup)          │
+├─────────────────────────────────────┤
+│  PDF Files                          │
+│       ↓                             │
+│  Chunks (Text Splitting)            │
+│       ↓                             │
+│  Embeddings (Vector Representation) │
+│       ↓                             │
+│  Stored in Chroma DB                │
+└─────────────────────────────────────┘
+
+┌─────────────────────────────────────┐
+│  RETRIEVAL & GENERATION (Per Query) │
+├─────────────────────────────────────┤
+│  User Query (Ingredients)           │
+│       ↓                             │
+│  Embedding (Same Model)             │
+│       ↓                             │
+│  Similarity Search in DB            │
+│       ↓                             │
+│  Top 3 Chunks (Context)             │
+│       ↓                             │
+│  Sent as Context to Prompt          │
+│       ↓                             │
+│  LLM (Ollama llama3.2)              │
+│       ↓                             │
+│  Generated Recipe Answer            │
+└─────────────────────────────────────┘
+```
 
 ## Architecture Diagram
 
